@@ -1,0 +1,880 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* Styles for large laptops and desktops */
+    /* Text Title */
+    .t-parent {
+        position: relative;
+        width: 326px;
+        height: 48px;
+        top: 136px;
+        left: 534px;
+        gap: 20px;
+    }
+
+    .t-collection {
+        margin-top: -60%;
+        margin-left: -21%;
+        width: 300px;
+        height: 48px;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48.41px;
+        color: #000000;
+    }
+
+    /* Product images */
+    .arrow {
+        background-image: url('../img/arrow.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 18px;
+        height: 15px;
+        margin-top: -19%;
+        margin-left: 90%;
+    }
+
+    .arrow2 {
+        background-image: url('../img/arrow.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 18px;
+        height: 15px;
+        position: relative;
+        top: -224px;
+        left: 801px;
+    }
+
+    .arrow3 {
+        background-image: url('../img/arrow.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 18px;
+        height: 15px;
+        position: relative;
+        top: 642px;
+        left: 10px;
+    }
+
+    .product-item1{
+        background: url('../img/bagRed.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 571px;
+        height: 480px;
+        border-radius: 20px;
+        position: relative;
+        top: 95px;
+        left: 800px;
+    }
+
+    .product-item2 {
+        background-image: url('../img/bagBrown.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 571px;
+        height: 480px;
+        border-radius: 20px;
+        position: relative;
+        top: 195px;
+        left: 84px;
+    }
+
+    .product-item3 {
+        background-image: url('../img/bagPink.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 571px;
+        height: 480px;
+        border-radius: 20px;
+        position: relative;
+        top: 770px;
+        left: 794px;
+    }
+
+    /*Product Description */
+    .product-description {
+        position: relative;
+        display: flex;
+    }
+
+    .product-description2 {
+        position: relative;
+        display: flex;
+    }
+
+
+    .description {
+        position: absolute;
+        width: 1284px;
+        height: 480px;
+        top: 264px;
+        left: 78px;
+        gap: 125px;
+    }
+
+    .description2 {
+        margin-top: -65%;
+        margin-left: -6%;
+        position: absolute;
+        width: 1284px;
+        height: 480px;
+        top: 824px;
+        left: 78px;
+        gap: 125px;
+    }
+
+    .description3 {
+        position: absolute;
+        width: 1284px;
+        height: 480px;
+        top: 824px;
+        left: 78px;
+        gap: 125px;
+    }
+
+    .formattings {
+        width: 588px;
+        height: 336px;
+        gap: 20px;
+    }
+
+    .product-title {
+        margin-top: -21%;
+        margin-left: -8%;
+        width: 588px;
+        height: 48px;
+        font-family: "Inter",sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48.41px;
+        color: #000000;
+    }
+
+    .product-title2{
+        position: relative;
+        top: -290px;
+        left: 780px;
+        width: 588px;
+        height: 48px;
+        font-family: "Inter",sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48.41px;
+        color: #000000;
+    }
+
+    .product-title3 {
+        width: 588px;
+        height: 48px;
+        font-family: "Inter",sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48.41px;
+        color: #000000;
+        position: relative;
+        top: 578px;
+        left: 5px;
+    }
+
+    .product-text{
+        margin-top: -15%;
+        width: 588px;
+        height: 268px;
+        font-family: "Inter",sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29.05px;
+    }
+
+    .product-text2 {
+        position: relative;
+        top: -259px;
+        left: 787px;
+        width: 588px;
+        height: 268px;
+        font-family: "Inter",sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29.05px;
+        color: #000000;
+    }
+
+    .product-text3 {
+        position: relative;
+        top: 610px;
+        left: 10px;
+        width: 588px;
+        height: 268px;
+        font-family: "Inter",sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29.05px;
+        color: #000000;
+    }
+
+    .product-arrow{
+        width: 167px;
+        height: 29px;
+        gap: 15px;
+        display: flex;
+    }
+
+    .product-arrow2{
+        width: 167px;
+        height: 29px;
+        gap: 15px;
+        display: flex;
+    }
+
+    .product-arrow3 {
+        width: 167px;
+        height: 29px;
+        gap: 15px;
+        display: flex;
+    }
+
+    .shop-now {
+        width: 134px;
+        height: 29px;
+        margin-top: 8%;
+        margin-left: -8%;
+        font-family: "Inter",sans-serif;
+        font-weight: 600;
+        line-height: 29.05px;
+        color: #000000;
+    }
+
+    .shop-now2 {
+        width: 134px;
+        position: relative;
+        top: -230px;
+        left: 794px;
+        height: 29px;
+        font-family: "Inter",sans-serif;
+        font-weight: 600;
+        line-height: 29.05px;
+        color: #000000;
+    }
+
+    .shop-now3 {
+        width: 134px;
+        height: 29px;
+        font-family: "Inter",sans-serif;
+        font-weight: 600;
+        line-height: 29.05px;
+        color: #000000;
+        position: relative;
+        top: 636px;
+        left: 8px;
+    }
+
+    /* Suggested items products */
+    .pop-item {
+        position: relative;
+        width: 268px;
+        height: 48px;
+        top: 1964px;
+        left: 586px;
+        gap: 10px;
+    }
+
+    .p-item {
+        position: absolute;
+        top: -1080px;
+        left: -10px;
+        width: 276px;
+        height: 48px;
+        font-family: "Inter",sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48.41px;
+        color: #000000;
+    }
+
+    .pop-products {
+        display: flex;
+        position: relative;
+        /* top: -200px; */
+        /* width: 277px;
+        height: 391px;
+        left: 59px;
+        gap: 36px; */
+    }
+
+    .format-prod1 {
+        margin-top: -1113px;
+        position: absolute;
+        width: 277px;
+        height: 391px;
+        top: 2064px;
+        left: 59px;
+        gap: 36px;
+    }
+
+    .format-prod2 {
+        margin-top: -1113px;
+        position: absolute;
+        width: 277px;
+        height: 391px;
+        top: 2064px;
+        left: 415px;
+        gap: 36px;
+    }
+
+    .format-prod3 {
+        margin-top: -1113px;
+        position: absolute;
+        width: 277px;
+        height: 391px;
+        top: 2064px;
+        left: 761px;
+        gap: 36px;
+    }
+
+    .format-prod4 {
+        margin-top: -1113px;
+        position: absolute;
+        width: 277px;
+        height: 391px;
+        top: 2064px;
+        left: 1107px;
+        gap: 36px;
+    }
+
+    .p-product1 {
+        background-image: url('../img/bagGold.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 277px;
+        height: 286px;
+        gap: 10px;
+    }
+
+    .p-product2 {
+        background-image: url('../img/bagCarton.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 277px;
+        height: 286px;
+        gap: 10px;
+    }
+
+    .p-product3 {
+        background-image: url('../img/bagBrickRed.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 277px;
+        height: 286px;
+        gap: 10px;
+    }
+
+    .p-product4 {
+        background-image: url('../img/bagBlack.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 277px;
+        height: 286px;
+        gap: 10px;
+    }
+
+    /* Add to Cart btn */
+    .add-btn {
+        width: 225px;
+        height: 69px;
+        margin-top: 15%;
+        margin-left: 8%;
+        border-radius: 20px;
+        padding: 20px 30px 20px 30px;
+        background-color: #677478;
+    }
+
+    .add-cart1 {
+        width: 165px;
+        height: 29px;
+        background-color: #677478;
+        border: none;
+        font-family: "Inter",sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29.05px;
+        color: #ffffff;
+    }
+
+    .add-cart2 {
+        width: 165px;
+        height: 29px;
+        background-color: #677478;
+        border: none;
+        font-family: "Inter",sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29.05px;
+        color: #ffffff;
+    }
+    .add-cart3 {
+        width: 165px;
+        height: 29px;
+        background-color: #677478;
+        border: none;
+        font-family: "Inter",sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29.05px;
+        color: #ffffff;
+    }
+    .add-cart4 {
+        width: 165px;
+        height: 29px;
+        background-color: #677478;
+        border: none;
+        font-family: "Inter",sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29.05px;
+        color: #ffffff;
+    }
+
+    /* Socials */
+    .socials {
+        position: relative;
+        width: 460px;
+        height: 46px;
+        top: 2555px;
+        left: 490px;
+        gap: 10px;
+    }
+
+    .social-text {
+        width: 460px;
+        height: 46px;
+        margin-top: -1200px;
+        margin-left: -18%;
+        text-align: center;
+        font-family: "Inter",sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48.41px;
+        color: #000000;
+    }
+
+    /* Floral products */
+    .floral-bags {
+        display: flex;
+        position: relative;
+        top: 1545px;
+        left: 73px;
+    }
+
+    .floral-bag1 {
+        background-image: url('../img//bagFloral1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 405px;
+        height: 496px;
+        top: 2642px;
+        left: 105px;
+    }
+    .floral-bag2 {
+        background-image: url('../img//bagFloral2.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 405px;
+        height: 496px;
+        margin-left: 3%;
+        top: 2642px;
+        left: 517px;
+    }
+    .floral-bag3 {
+        background-image: url('../img//bagPurple.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 405px;
+        height: 496px;
+        margin-left: 3%;
+        top: 2642px;
+        left: 929px;
+    }
+
+    /* Motto */
+  
+  .motto1 {
+    position: relative;
+    
+ }
+
+ .motto-position1 {
+    display: flex;
+    top: 500px;
+    position: absolute;
+    width: 793px;
+    height: 73px;
+    top: 3181px;
+    margin-top: -1550px;
+    left: 80px;
+    gap: 20px;
+ }
+
+ .logo3 {
+    background-image: url('../img/LogoTwo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 198px;
+    height: 73px;
+ }
+
+ .text-motto1 {
+   width: 575px;
+   height: 49px;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 48.76px;
+   color: #677478; 
+   margin-top: 25px;
+ }
+
+ /* Footer */
+ footer{
+    position: relative;
+    background-color: #677478;
+  }
+
+  .footer1 {
+    position: absolute;
+    display: flex;
+    width: 1440px;
+    height: 240px;
+    margin-top: -1500px;
+    top: 3376px;
+    background-color: #677478;
+  }
+
+  h4 {
+    position: absolute;
+    width: 92px;
+    height: 29px;
+    top: 106px;
+    left: 102px;
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29.05px;
+    color: #ffffff;
+  }
+
+  .address1 {
+    position: absolute;
+    color: #ffffff;
+    width: 209px;
+    height: 30px;
+    top: 157px;
+    left: 78px;
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.52px;
+    text-align: center;
+  }
+
+  
+   
+}  
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Styles for laptops/desktops */
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Styles for landscape tablets */
+
+    /* Text-title */
+    .t-parent{
+        /* position: relative;
+        width: 289px;
+        height: 48px;
+        top: 150px;
+        left: 272px;
+        gap: 10px; */
+        position: relative;
+        width: 326px;
+        height: 48px;
+        top: 136px;
+        left: 534px;
+        gap: 20px;
+    }
+
+    .t-collection {
+        /* width: 290px;
+        height: 48px;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48.41px;
+        color: #000000; */
+        margin-top: -65%;
+        margin-left: -21%;
+        width: 300px;
+        height: 48px;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48.41px;
+        color: #000000;
+    }
+
+    /* Product image description */
+    .product-item1 {
+        background: url('../img/bagRed.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 571px;
+        height: 480px;
+        margin-top: 178px;
+        margin-left: 390px;
+        border-radius: 20px;
+    }
+    .product-item2 {
+        background: url('../img/bagBrown.png');
+        margin-top: 550px;
+        margin-left: 20px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 571px;
+        height: 480px;
+        border-radius: 20px;
+    }
+    .product-item3 {
+        background: url('../img/bagPink.png');
+        margin-top: 1560px;
+        margin-left: 380px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 571px;
+        height: 480px;
+        border-radius: 20px;
+    }
+
+    .arrow {
+        background-image: url('../img/arrow.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 18px;
+        height: 15px;
+        margin-left: 500px;
+        margin-top: -85px;
+    }
+
+    .arrow2 {
+        background-image: url('../img/arrow.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 18px;
+        height: 15px;
+        margin-top: -85px;
+        margin-left: 190px;
+    }
+
+    .arrow3{
+        background-image: url('../img/arrow.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 18px;
+        height: 15px;
+        margin-top: -90px;
+        margin-left: 490px;
+    }
+
+    .product-description{
+        position: relative;
+    }
+
+    .product-description2 {
+        position: relative;
+    }
+
+    .product-description3 {
+        position: relative;
+    }
+
+    .description {
+        position: absolute;
+        width: 588px;
+        height: 925px;
+        top: 248px;
+        left: 50px;
+        gap: 50px;
+    }
+
+    .description2  {
+        position: absolute;
+        width: 588px;
+        height: 925px;
+        top: 1233px;
+        margin-top: -1250px;
+        margin-left: 310px;
+        left: 50px;
+        gap: 50px;
+    }
+    .description3 {
+        position: absolute;
+        width: 588px;
+        height: 925px;
+        top: 2218px;
+        left: 50px;
+        gap: 50px;
+    }
+
+    /* Product title */
+    .formattings{
+        width: 588px;
+        height: 395px;
+        gap: 30px;
+    }
+
+    .formattings2 {
+        width: 588px;
+        height: 395px;
+        gap: 30px;
+    }
+
+    .formattings3 {
+        width: 588px;
+        height: 395px;
+        gap: 30px;
+    }
+
+    .product-title {
+        margin-top: 110px;
+        margin-left: 275px;
+        width: 588px;
+        height: 48px;
+        font-family: "Inter",sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48.41px;
+        color: #000000;
+    }
+
+    .product-title2 {
+        margin-top: 915px;
+        margin-left: -28px;
+        width: 588px;
+        height: 48px;
+        font-family: "Inter",sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48.41px;
+        color: #000000;
+    }
+
+    .product-title3 {
+        margin-top: -1843px;
+        margin-left: 280px;
+        width: 588px;
+        height: 48px;
+        font-family: "Inter",sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48.41px;
+        color: #000000;
+    }
+    /* product text */
+    .product-text {
+        width: 588px;
+        height: 268px;
+        font-family: "Inter",sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29.05px;
+        margin-top: 350px;
+        margin-left: 330px;
+    }
+
+    .product-text2{
+        margin-top: 130px;
+        margin-left: 5%;
+        width: 588px;
+        height: 268px;
+        font-family: "Inter",sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29.05px;
+    }
+
+    .product-text3{
+        margin-top: -1587px;
+        margin-left: 330px;
+        width: 588px;
+        height: 268px;
+        font-family: "Inter",sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29.05px;
+    }
+
+    .product-arrow{
+        width: 167px;
+        height: 29px;
+        gap: 15px;
+    }
+
+    .product-arrow2 {
+        width: 167px;
+        height: 29px;
+        gap: 15px;
+    }
+
+    .product-arrow3{
+        width: 167px;
+        height: 29px;
+        gap: 15px;
+    }
+
+
+    .shop-now {
+        width: 134px;
+        height: 29px;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29.05px;
+        color: #000000;
+        margin-top: 500px;
+        margin-left: 280px;
+    }
+
+    .shop-now2{
+        width: 134px;
+        height: 29px;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29.05px;
+        color: #000000;
+        margin-top: 1309px;
+        margin-left: -17px;
+    }
+
+    .shop-now3{
+        width: 134px;
+        height: 29px;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29.05px;
+        color: #000000;
+        margin-top: -1443px; 
+        margin-left: 280px;
+    }
+}

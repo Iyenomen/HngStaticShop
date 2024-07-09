@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
+// import { Container } from 'react-bootstrap'
+import SellerPage from './SellerPage'
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import Cart from './Cart';
+import Checkout from './Checkout';
+import Catalog from './Catalog';
+// import Cart from './Cart'
+// import Checkout from './Checkout'
 
-function App() {
+const App = () => {
+
+  // const router = createBrowserRouter([
+  //   {
+  //     path: "/",
+  //     element: <SellerPage />,
+  //   },
+  // ]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+       {/* <SellerPage/> */}
+       <Router>
+         <Routes>
+            <Route path='/' element={<SellerPage/>} />
+            <Route path='/cart' element={<Cart/>} />
+            <Route path='/checkout' element={<Checkout/>} />
+            <Route path='/catalog' element={<Catalog />}/>
+         </Routes>
+       </Router>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
